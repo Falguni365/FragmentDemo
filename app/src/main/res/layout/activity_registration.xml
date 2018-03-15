@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@animator/backgroundcolorgradient"
+    android:orientation="vertical"
+
+    tools:context="com.example.akshay.fragmentdemo.registrationActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AUTHOR JUNCTION"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:text="Select how you want to register your self" />
+
+            <RadioGroup
+                android:id="@+id/rg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/registrationAuthorRadio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#FFF"
+                    android:text="Author" />
+
+                <RadioButton
+                    android:id="@+id/registrationUserRadio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#FFF"
+                    android:text="User" />
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/restrationName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#FFFFFF"
+                android:hint="Name" />
+
+            <EditText
+                android:id="@+id/restrationSurname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#FFFFFF"
+                android:hint="Surname" />
+
+            <EditText
+                android:id="@+id/restrationEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#FFFFFF"
+                android:hint="Email ID" />
+
+            <EditText
+                android:id="@+id/restrationPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#FFFFFF"
+                android:hint="Phone Number" />
+
+            <EditText
+                android:id="@+id/registrationPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#FFFFFF"
+                android:hint="Password"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/registrationSignup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@animator/buttonsfile"
+                android:textColor="#FFFFFF"
+                android:text="Sign In" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="If you are registrating as Author you need to wait for authorization process" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="Already a member?" />
+
+            <Button
+                android:id="@+id/registrationLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:layout_marginRight="90dp"
+                android:layout_marginTop="10dp"
+                android:background="@animator/buttonsfile"
+                android:textColor="#FFFFFF"
+                android:text="Login" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

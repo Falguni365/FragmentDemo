@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="7dp"
+    android:paddingRight="7dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Event Title  :  "/>
+            <TextView
+                android:id="@+id/eventtithere"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EVENT TITLE HERE"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Event Description  :  "/>
+            <TextView
+                android:id="@+id/eventdescriptionhere"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EVENT DESCRIPTION HERE"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Event Location  :  "/>
+            <TextView
+                android:id="@+id/eventlocationhere"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EVENT LOCATION HERE"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

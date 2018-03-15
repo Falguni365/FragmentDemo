@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@animator/backgroundcolorgradient"
+    android:orientation="vertical"
+    tools:context="com.example.akshay.fragmentdemo.loginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|top"
+            android:text="Author Junction"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!--<ScrollView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+
+            <EditText
+
+                android:id="@+id/loginUserID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textColorHint="#FFFFFF"
+                android:hint="User ID" />
+
+            <EditText
+                android:id="@+id/loginUserPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:textColorHint="#FFFFFF"
+                android:hint="Password" />
+
+            <Button
+                android:id="@+id/loginbutton"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@animator/buttonsfile"
+                android:fadingEdge="horizontal"
+
+                android:textColor="#FFFFFF"
+                android:text="Login" />
+
+            <Button
+                android:id="@+id/loginSignUpButton"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="bottom"
+                android:background="@android:color/transparent"
+                android:gravity="center|bottom"
+                android:hint="Don't have an account? Sign Up"
+                />
+
+        <!--</ScrollView>-->
+
+    </LinearLayout>
+
+</LinearLayout>

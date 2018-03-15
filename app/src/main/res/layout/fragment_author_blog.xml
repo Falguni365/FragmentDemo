@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.akshay.fragmentdemo.author_blog"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Write your daily blog here for your Followers." />
+    <EditText
+        android:id="@+id/blog_here"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="What's in your mind?"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/blogsubmit"
+        android:text="Submit"/>
+
+    <Button
+        android:id="@+id/previousBlogs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show previous Blogs"/>
+
+</LinearLayout>
